@@ -1,0 +1,58 @@
+{
+  "goals": [
+    {
+      "id": "1",
+      "name": "Smart Air Purifier",
+      "category": "Home",
+      "targetAmount": 9765.92,
+      "savedAmount": 1424.25,
+      "deadline": "1/8/2024",
+      "createdAt": "2/15/2025"
+    },
+    {
+      "id": "2",
+      "name": "Peanut Butter Filled Pretzels",
+      "category": "Food - Snacks",
+      "targetAmount": 2589.06,
+      "savedAmount": 355.65,
+      "deadline": "4/16/2025",
+      "createdAt": "4/14/2025"
+    },
+    {
+      "id": "3",
+      "name": "Honey mustard chicken tenders",
+      "category": "Food - Meat",
+      "targetAmount": 2959.79,
+      "savedAmount": 1263.87,
+      "deadline": "1/20/2027",
+      "createdAt": "10/24/2024"
+    },
+    {
+      "id": "4",
+      "name": "Vintage Button-Down Shirt",
+      "category": "Clothing - Shirts",
+      "targetAmount": 2315.8,
+      "savedAmount": 488.1,
+      "deadline": "6/30/2027",
+      "createdAt": "6/18/2025"
+    },
+    {
+      "id": "5",
+      "name": "Sweet Potato Mash",
+      "category": "Food - Frozen Foods",
+      "targetAmount": 1222.39,
+      "savedAmount": 555.43,
+      "deadline": "5/24/2024",
+      "createdAt": "8/12/2024"
+    },
+    {
+      "id": "6",
+      "name": "A-Line Skirt",
+      "category": "Clothing - Bottoms",
+      "targetAmount": 1145.2,
+      "savedAmount": 686.08,
+      "deadline": "12/31/2025",
+      "createdAt": "5/29/2024"
+    }
+  ]
+}

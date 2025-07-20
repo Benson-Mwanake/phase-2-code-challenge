@@ -1,0 +1,60 @@
+.goal-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.goal-card {
+  background-color: #f6f7ed;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.goal-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.goal-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goal-actions button {
+  padding: 0.5rem 0.9rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: limegreen;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.goal-actions .danger {
+  background-color: lightcoral;
+}
+
+.goal-actions .danger:hover {
+  background-color: #c32c36;
+}
+
+.save-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.save-form input {
+  width: 80px;
+  padding: 0.3rem;
+}
+.completed-label {
+  color: green;
+  font-weight: bold;
+  margin-top: 5px;
+}
