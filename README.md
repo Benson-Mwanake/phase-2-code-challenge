@@ -1,12 +1,65 @@
-# React + Vite
+# Smart Goal Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smart Goal Planner is a simple React app for managing your financial goals. You can:
 
-Currently, two official plugins are available:
+* Create savings goals with name, category, target amount, and deadline
+* View progress with a progress bar
+* Add money toward your goals
+* See when goals are completed
+* Delete goals
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### 1. Clone the repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/smart-goal-planner.git
+cd smart-goal-planner
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+App will run on `http://localhost:5173`
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+## Folder Structure
+
+* `src/` – React components and CSS
+* `db.json` – JSON Server database
+
+## Backend (JSON Server)
+
+To start JSON Server:
+
+```bash
+npx json-server --watch db.json --port 3000
+```
+
+Make sure it runs on `http://localhost:3000`
+
+## Technologies Used
+
+* React
+* Vite
+* JSON Server
+* Plain CSS
+
+## License
+
+MIT
+
