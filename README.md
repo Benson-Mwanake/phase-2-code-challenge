@@ -8,6 +8,13 @@ Smart Goal Planner is a simple React app for managing your financial goals. You 
 * See when goals are completed
 * Delete goals
 
+* ## 🌐 Live Demo
+
+You can view the live deployed version of this project here:
+
+👉 [Smart Goal Planner on Netlify](https://singular-sprinkles-c254c0.netlify.app/)
+
+
 ## Getting Started
 
 ### 1. Clone the repository
