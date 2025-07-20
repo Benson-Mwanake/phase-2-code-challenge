@@ -13,7 +13,7 @@ Smart Goal Planner is a simple React app for managing your financial goals. You 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/smart-goal-planner.git
+git clone git@github.com:Benson-Mwanake/phase-2-code-challenge.git
 cd smart-goal-planner
 ```
 
@@ -29,7 +29,6 @@ npm install
 npm run dev
 ```
 
-App will run on `http://localhost:5173`
 
 ### 4. Build for production
 
